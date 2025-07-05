@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+body {
+      background-color: rgb(204, 204, 204);
+      font-family: Arial, sans-serif;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    ul {
+      padding: 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: white;
+      width: 40%;
+      margin: 0 auto;
+      list-style-type: none;
+    }
+
+    li {
+      margin: 5px 0;
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration-line: none;
+    }
+
+    .player_one, .player_two {
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      border-radius: 10px;
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    video, audio {
+      width: 100%;
+    }
